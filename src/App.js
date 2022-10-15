@@ -2,6 +2,15 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+
+  const tasks = [
+    {"id":1,"task":"to clean the house","complete":true},
+    {"id":1,"task":"to water the flowers","complete":false},
+    {"id":1,"task":"to wash the dishes","complete":true},
+    {"id":1,"task":"to cook the dinne","complete":false},
+    {"id":1,"task":"to walk the dog","complete":false},
+  ]
+
   return (
     <div className="App">
       <header className="App-header">
