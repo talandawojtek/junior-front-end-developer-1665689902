@@ -3,7 +3,7 @@ import './App.css';
 
 function App() {
 
-  const data = [
+  const tasks = [
     {"id":1,"task":"to clean the house","complete":true},
     {"id":1,"task":"to water the flowers","complete":false},
     {"id":1,"task":"to wash the dishes","complete":true},
