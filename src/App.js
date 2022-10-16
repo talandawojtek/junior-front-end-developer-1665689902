@@ -4,11 +4,11 @@ import './App.css';
 function App() {
 
   const tasks = [
-    {"id":1,"task":"to clean the house","complete":true},
-    {"id":1,"task":"to water the flowers","complete":false},
-    {"id":1,"task":"to wash the dishes","complete":true},
-    {"id":1,"task":"to cook the dinne","complete":false},
-    {"id":1,"task":"to walk the dog","complete":false},
+    {"id":1,"title":"to clean the house","author":"wojtek","created":"",},
+    {"id":2,"title":"to water the flowers","author":"wojtek","created":"",},
+    {"id":3,"title":"to wash the dishes","author":"wojtek","created":"",},
+    {"id":4,"title":"to cook the dinne","author":"wojtek","created":"",},
+    {"id":5,"title":"to walk the dog","author":"wojtek","created":""}
   ]
 
   return (
